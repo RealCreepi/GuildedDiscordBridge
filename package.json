@@ -1,0 +1,23 @@
+{
+    "name": "guildeddiscordbridge",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/RealCreepi/GuildedDiscordBridge.git"
+    },
+    "author": "RealCreepi, windowsboy111",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/RealCreepi/GuildedDiscordBridge/issues"
+    },
+    "homepage": "https://github.com/RealCreepi/GuildedDiscordBridge#readme",
+    "dependencies": {
+        "discord.js": "^13.1.0",
+        "typescript": "^4.4.2"
+    }
+}
