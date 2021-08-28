@@ -2,8 +2,8 @@
     "name": "guildeddiscordbridge",
     "version": "1.0.0",
     "description": "",
-    "main": "src/index.js",
     "scripts": {
+        "start": "ts-node ./src/discord/index.ts",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
@@ -18,6 +18,7 @@
     "homepage": "https://github.com/RealCreepi/GuildedDiscordBridge#readme",
     "dependencies": {
         "discord.js": "^13.1.0",
-        "typescript": "^4.4.2"
+        "typescript": "^4.4.2",
+        "ts-node": "^10.2.1"
     }
 }
