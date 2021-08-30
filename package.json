@@ -1,23 +1,30 @@
 {
     "name": "guildeddiscordbridge",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "",
     "main": "src/index.js",
     "scripts": {
+        "start": "ts-node ./src/index.ts",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/RealCreepi/GuildedDiscordBridge.git"
     },
-    "author": "RealCreepi, windowsboy111",
+    "author": "RealCreepi, windowsboy111, kittyle",
     "license": "ISC",
     "bugs": {
         "url": "https://github.com/RealCreepi/GuildedDiscordBridge/issues"
     },
     "homepage": "https://github.com/RealCreepi/GuildedDiscordBridge#readme",
     "dependencies": {
+        "@guildedjs/guilded-api-typings": "^1.3.0",
+        "@guildedjs/guilded.js": "^2.1.1",
+        "@types/node-fetch": "^2.5.12",
         "discord.js": "^13.1.0",
+        "log4js": "^6.3.0",
+        "node-fetch": "^2.6.1",
+        "ts-node": "^10.2.1",
         "typescript": "^4.4.2"
     }
 }
