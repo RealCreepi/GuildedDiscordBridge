@@ -1,0 +1,11 @@
+{
+    "discord": {
+        "token": "",
+        "guild": ""
+    },
+    "guilded": {
+        "email": "",
+        "password": "",
+        "team": ""
+    }
+}
